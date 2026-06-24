@@ -1,67 +1,48 @@
-# TaskFlow 📋
+# TaskFlow
 
-TaskFlow is a mobile task and reminder management application built using React Native, Expo, FastAPI, and SQLite. It helps users organize tasks, set reminders, receive notifications, and manage daily activities efficiently.
+TaskFlow is a mobile application developed to help users manage daily tasks and reminders in a simple and organized way. The app allows users to create tasks, set reminders, receive notifications, and keep track of their schedules.
 
-## 🚀 Features
+## Features
 
-- User Registration & Login
-- Create, Edit, and Delete Tasks
-- Reminder Notifications
-- Task Status Management
-- Daily Task Tracking
-- Mobile-Friendly Interface
-- Cloud Backend Deployment using Render
+* User registration and login
+* Create, update, and delete tasks
+* Reminder notifications
+* Task status tracking
+* Simple and user-friendly interface
 
-## 🛠️ Tech Stack
+## Technologies Used
 
 ### Frontend
-- React Native
-- Expo
-- Zustand
-- Axios
+
+* React Native
+* Expo
+* Zustand
+* Axios
 
 ### Backend
-- FastAPI
-- SQLite
-- SQLAlchemy
-- Uvicorn
+
+* FastAPI
+* SQLite
+* SQLAlchemy
 
 ### Deployment
-- GitHub
-- Render
 
-## 📂 Project Structure
+* GitHub
+* Render
+
+## Project Structure
 
 ```text
-Taskflow/
-├── backend/
-│   ├── main.py
-│   ├── config.py
-│   ├── database.py
-│   ├── models.py
-│   ├── schemas.py
-│   ├── dependencies.py
-│   └── requirements.txt
+Taskflow
 │
-├── frontend/
-│   ├── App.js
-│   ├── screens/
-│   ├── components/
-│   ├── services/
-│   ├── store/
-│   └── android/
+├── backend
+├── frontend
+└── README.md
 ```
 
-## ⚙️ Installation
+## Running the Project
 
-### Clone Repository
-
-```bash
-git clone https://github.com/ashmigifta26/Taskflow.git
-cd Taskflow
-```
-
-### Backend Setup
+### Backend
 
 ```bash
 cd backend
@@ -69,13 +50,7 @@ pip install -r requirements.txt
 uvicorn main:app --reload
 ```
 
-Backend runs on:
-
-```text
-http://localhost:8000
-```
-
-### Frontend Setup
+### Frontend
 
 ```bash
 cd frontend
@@ -83,25 +58,10 @@ npm install
 npx expo start
 ```
 
-## 🌐 Deployment
+## Purpose
 
-Backend is deployed on Render and connected to the mobile application for online access.
+This project was developed as a learning project to gain practical experience in mobile application development, backend API development, database management, and cloud deployment.
 
-## 🎯 Future Enhancements
+## Author
 
-- PostgreSQL Migration
-- Push Notification Improvements
-- Task Categories
-- Dark Mode
-- Analytics Dashboard
-- Multi-User Collaboration
-
-## 👩‍💻 Developer
-
-**Ashmi Gifta**
-
-GitHub: https://github.com/ashmigifta26
-
-## 📄 License
-
-This project is developed for educational and learning purposes.
+Ashmi Gifta
