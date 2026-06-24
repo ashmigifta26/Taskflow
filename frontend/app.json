@@ -1,0 +1,54 @@
+{
+  "expo": {
+    "name": "TaskFlow",
+    "slug": "taskflow",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FAF6EE"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.taskflow.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundColor": "#FAF6EE"
+      },
+      "package": "com.taskflow.app",
+      "versionCode": 1,
+      "permissions": [
+        "android.permission.NOTIFICATIONS",
+        "android.permission.VIBRATE",
+        "android.permission.RECEIVE_BOOT_COMPLETED",
+        "android.permission.INTERNET",
+        "android.permission.ACCESS_NETWORK_STATE",
+        "android.permission.SCHEDULE_EXACT_ALARM"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/android-icon-foreground.png",
+          "color": "#2563EB"
+        }
+      ],
+      "expo-status-bar"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "5588dbf0-ef6f-437a-a958-9d70ddadf98f"
+      }
+    }
+  }
+}
